@@ -1,6 +1,6 @@
 first notes
 
-# What I Learned
+# What I Learned, Day 1
 
 What cybersecurity is
 
