@@ -4,7 +4,7 @@
 A structured, day-by-day documentation of my cybersecurity journey — from fundamentals to hands-on labs, tools, projects, and certifications.
 This repository serves as my learning journal, evidence of skills, and portfolio of practical work as I progress through the Google Cybersecurity Professional Certificate and other security training.
 
-📁 Repository Structure
+## 📁 Repository Structure
 
 cyber-learning-log/
 
@@ -71,5 +71,6 @@ Each day is logged with the following structure:
 ## 🚀 Outcome
 - Skills gained
 - Questions remaining
+
 
 
