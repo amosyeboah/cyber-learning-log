@@ -17,6 +17,33 @@ The server response: The web server recieves the request from your PC, the serve
 independently through the network. The packets are reassembled at the recieving end and the data is displayed
 on your browser.
 
+## IP address
+An IP address is a unique number assigned to every device on a network. 
+It helps identify devices and locate them on a network.
+#### Two versions: IPv4 and IPv6
+IPv4: e.g., 192.168.1.1 (32-bit, most common)
+IPv6: e.g., 2001:db8::1 (128-bit, newer, many more addresses)
+
+#### Public vs. Private IP
+Public IP: Assigned by your internet provider; used on the internet.
+Private IP: Used inside your home or local network (e.g., your router assigns these).
+
+#### Static vs. Dynamic IP:
+Static IP: Remains constant. 
+Typically used for servers, websites, or devices that need a fixed address.
+
+Dynamic IP: Changes periodically.
+Assigned automatically by DHCP (Dynamic Host Configuration Protocol) for most personal devices.
+#### IP Address Assignment:
+DHCP (Dynamic Host Configuration Protocol): Automatically assigns a dynamic IP to devices on a network.
+Manual/Static Assignment: Network administrators set static IPs manually.
+
+#### Why IP Addresses Matter
+They allow devices to:
+Connect to the internet
+Send/receive data
+Be uniquely identifiable on networks
+
 
 
 ## Pracctice 
