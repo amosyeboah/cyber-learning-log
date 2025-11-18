@@ -48,14 +48,17 @@ Be uniquely identifiable on networks
 ### Data Packets
 Data packets are said to be a unit of data that are transmittes on a network.
 #### 1.Header 2.Payload 3.Footer/Tail
-#### Fragmentation: In fragementation large data is split into smaller packets
-#### Transmission:  In transmission data packets are through diff path on a network
-#### Reassembly:  When data packets reach their destination they are reassembled in the correct order of sequence, using their sequence number
+#### Fragmentation: 
+In fragementation large data is split into smaller packets
+#### Transmission:  
+In transmission data packets are through diff path on a network
+#### Reassembly:  
+When data packets reach their destination they are reassembled in the correct order of sequence, using their sequence number
 
 
 #### Protocols : Protocols are the standardized rules in data communication.
 #### common Protocols: Http, Https, dns, tcp/ip, tcp, udp, icmp, ssh, telnet, arp etc.
-Http-80, Https-443, dns-53, ftp-21, sftp-22 ssh-22, telnet-23, dhcp-67
+Http-80, Https-443, dns-53, ftp-21, sftp-22, ssh-22, telnet-23, dhcp-67
 
 
 
