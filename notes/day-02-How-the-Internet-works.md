@@ -96,7 +96,6 @@ TTL (time-to-live) shows how many network hops remain
 
 #### tracert/traceroute
 tracert - windows, traceroute - linux/Mac
-**In short:**
 
 ### **What is tracert?**
 **Tracert** (or traceroute) is a tool that shows the **path your data takes** across the internet from your device to a destination.
