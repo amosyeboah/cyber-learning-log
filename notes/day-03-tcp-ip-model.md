@@ -12,13 +12,13 @@ The TCP 3-way handshake is the process used to establish a reliable connection b
 
 ### It has 3 steps: SYN → SYN-ACK → ACK
 
-Client .................... Server
+Client .......................... Server
 
-  | ---- SYN ------------->   |
+  | ---- SYN ----------------->       |
   
-  | <--- SYN-ACK ----------   |
+  | <--- SYN-ACK -------------       |
   
-  | ---- ACK ------------->   |
+  | ---- ACK ----------------->       |
   
 Connection established
 
