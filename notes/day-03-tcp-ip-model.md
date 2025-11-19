@@ -10,9 +10,9 @@ TCP/IP Model Layers (4 Layers) -  Network layer - Internet - Transport - Applica
 #### TCP 3 way handshake
 The TCP 3-way handshake is the process used to establish a reliable connection between a client and a server before data is exchanged.
 
-It has 3 steps: SYN → SYN-ACK → ACK
+### It has 3 steps: SYN → SYN-ACK → ACK
 
-Client                       Server
+Client .................... Server
 
   | ---- SYN ------------->   |
   
