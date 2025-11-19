@@ -62,10 +62,10 @@ Http-80, Https-443, dns-53, ftp-21, sftp-22, ssh-22, telnet-23, dhcp-67
 
 
 
-## Pracctice 
+## Pracctice (Ping, tracert/traceroute, whois)
 #### ping
 In networking, ping is a simple diagnostic tool used to test whether one device can reach another over a network (like the internet or a local network).
-
+We ping to verify connectivity, measure speed, and troubleshoot problems in a network.
 #### How ping works
 
 Your device sends a small packet called an ICMP Echo Request to a target IP address or domain.
@@ -84,3 +84,29 @@ Lower is better (e.g., 10–30 ms is fast; 200 ms+ is slow).
 
 #### Packet loss
 If some pings never come back, the network might be congested or unstable.
+
+##### ping google.com
+
+Reply from 142.250.72.46: bytes=32 time=14ms TTL=113
+
+This means:
+Google is reachable
+It took 14 ms for the round-trip
+TTL (time-to-live) shows how many network hops remain
+
+#### tracert/traceroute
+tracert - windows, traceroute - linux/Mac
+**In short:**
+
+### **What is tracert?**
+**Tracert** (or traceroute) is a tool that shows the **path your data takes** across the internet from your device to a destination.
+### **Why do we use it?**
+We use tracert to **find where a network problem is happening**—which hop (router) is slow, failing, or blocking traffic.
+
+That’s it:
+**Ping checks if something is reachable.
+
+Tracert shows the path and where it might be breaking.**
+
+### whois
+WHOIS tells you who owns a domain, when it was registered, who the registrar is, and when it expires
