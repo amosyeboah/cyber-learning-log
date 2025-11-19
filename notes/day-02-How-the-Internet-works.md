@@ -70,23 +70,17 @@ In networking, ping is a simple diagnostic tool used to test whether one device 
 
 Your device sends a small packet called an ICMP Echo Request to a target IP address or domain.
 If the target is reachable, it replies with an ICMP Echo Reply.
-
 Your computer measures how long it took to get the reply.
 
-What ping tells you
+#### What ping tells you
 
 #### Connectivity
-
 If you get replies, the device is reachable.
-
 If you get “Request timed out,” it might be offline, blocked, or unreachable.
 
 #### Latency (response time)
-
 Measured in milliseconds (ms).
-
 Lower is better (e.g., 10–30 ms is fast; 200 ms+ is slow).
 
 #### Packet loss
-
 If some pings never come back, the network might be congested or unstable.
