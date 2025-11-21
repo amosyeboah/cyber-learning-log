@@ -6,7 +6,7 @@ A subnet (sub-network) is a smaller part of a bigger network.
 Think of the whole internet or your home network like a big neighborhood.
 A subnet is like dividing that neighborhood into smaller streets so traffic is easier to manage.
 
-#🧩 Why Do We Use Subnets?
+# 🧩 Why Do We Use Subnets?
 
 1. Better organization
 
