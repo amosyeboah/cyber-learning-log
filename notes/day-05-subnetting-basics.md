@@ -6,7 +6,7 @@ A subnet (sub-network) is a smaller part of a bigger network.
 Think of the whole internet or your home network like a big neighborhood.
 A subnet is like dividing that neighborhood into smaller streets so traffic is easier to manage.
 
-# 🧩 Why Do We Use Subnets?
+## 🧩 Why Do We Use Subnets?
 
 1. Better organization
 
@@ -83,7 +83,7 @@ Network address
 
 Broadcast address
 
-🛰️ Network Address & Broadcast Address
+## 🛰️ Network Address & Broadcast Address
 
 For 192.168.1.0/24:
 
@@ -93,7 +93,7 @@ Network address → 192.168.1.0
 Broadcast address → 192.168.1.255
 (Message to everyone in the subnet)
 
-🎓 Subnetting Example (Very Simple)
+## 🎓 Subnetting Example (Very Simple)
 
 You have the IP:
 10.0.0.0/24
