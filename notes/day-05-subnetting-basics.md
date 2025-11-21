@@ -32,7 +32,7 @@ Example: 192.168.1.10
 
 This is like a house number.
 
-###2. Subnet Mask
+### 2. Subnet Mask
 
 Example:
 
@@ -56,13 +56,18 @@ A /24 means:
 
 8 bits for hosts
 
-🧮 Common Subnets (Easy Table)
+### 🧮 Common Subnets (Easy Table)
 CIDR	Hosts	Subnet Mask	Example Usage
+
 /24	254 devices	255.255.255.0	Normal home/office LAN
+
 /25	126 devices	255.255.255.128	Medium networks
+
 /26	62 devices	255.255.255.192	Cameras, printers
+
 /30	2 devices	255.255.255.252	Router-to-router links
-🎯 How to Know the # of Hosts?
+
+## 🎯 How to Know the # of Hosts?
 
 Formula:
 
