@@ -1,1 +1,119 @@
+# 🌐 Subnet Basics (Simple Explanation)
 
+### ✅ What is a Subnet?
+A subnet (sub-network) is a smaller part of a bigger network.
+
+Think of the whole internet or your home network like a big neighborhood.
+A subnet is like dividing that neighborhood into smaller streets so traffic is easier to manage.
+
+#🧩 Why Do We Use Subnets?
+
+1. Better organization
+
+You can group devices (computers, printers, servers, cameras) into sections.
+
+2. Better security
+
+You can isolate parts of the network.
+E.g., Guest WiFi can't access internal company systems.
+
+3. Better performance
+
+Smaller networks = less congestion = faster performance.
+
+4. Easier troubleshooting
+
+If something breaks, you know exactly where to check.
+
+### 🔑 Important Terms
+# 1. IP Address
+
+Example: 192.168.1.10
+
+This is like a house number.
+
+###2. Subnet Mask
+
+Example:
+
+255.255.255.0 (common for small networks)
+
+/24 (CIDR notation for same thing)
+
+It tells you which part of the IP is the network and which part is the host.
+
+### 3. Network Portion vs Host Portion
+
+Example IP: 192.168.1.10/24
+
+192.168.1 → Network
+
+.10 → Host (device)
+
+A /24 means:
+
+24 bits for network
+
+8 bits for hosts
+
+🧮 Common Subnets (Easy Table)
+CIDR	Hosts	Subnet Mask	Example Usage
+/24	254 devices	255.255.255.0	Normal home/office LAN
+/25	126 devices	255.255.255.128	Medium networks
+/26	62 devices	255.255.255.192	Cameras, printers
+/30	2 devices	255.255.255.252	Router-to-router links
+🎯 How to Know the # of Hosts?
+
+Formula:
+
+Number of hosts = 2^(32 – CIDR) – 2
+
+
+Example: /24
+
+Hosts = 2^(32–24) – 2
+       = 2^8 – 2
+       = 256 – 2
+       = 254 hosts
+
+
+The – 2 removes:
+
+Network address
+
+Broadcast address
+
+🛰️ Network Address & Broadcast Address
+
+For 192.168.1.0/24:
+
+Network address → 192.168.1.0
+(Unusable; identifies the network)
+
+Broadcast address → 192.168.1.255
+(Message to everyone in the subnet)
+
+🎓 Subnetting Example (Very Simple)
+
+You have the IP:
+10.0.0.0/24
+But you need two smaller networks.
+
+Split /24 into two /25 networks:
+
+1️⃣ 10.0.0.0/25 (0–127)
+2️⃣ 10.0.0.128/25 (128–255)
+
+Each can hold 126 devices.
+
+🔥 Easy Analogy
+
+IP address → Your house
+
+Subnet mask → The street layout
+
+Network address → Street name
+
+Host address → House number
+
+Broadcast address → Announcement to everyone in the street
