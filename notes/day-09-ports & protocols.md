@@ -30,13 +30,15 @@ for example; 192.168.1.1:80
 # Practice ' netstat, ss'.
 Network administrators and users rely on tools like *netstat* and *ss* to gain visibility into network activity for the purposes of troubleshooting, performance monitoring, and security. 
 These tools serve several critical functions:
-### Monitoring Connections: They display a snapshot of all active network connections (both inbound and outbound) to the system, allowing users to see what remote machines their computer is communicating with.
 
-### Identifying Open Ports/Services: You can see which ports on the system are in a LISTEN state and which services or applications are using them. This is crucial for verifying that network services (like a web server on port 80 or SSH on port 22) are running correctly or for detecting unauthorized services.
+Monitoring Connections: They display a snapshot of all active network connections (both inbound and outbound) to the system, allowing users to see what remote machines their computer is communicating with.
 
-### Troubleshooting Network Issues: By examining connection states (e.g., ESTABLISHED, SYN_SENT, TIME_WAIT), administrators can diagnose common problems like connection floods, network congestion, or application errors that prevent connections from closing properly.
+Identifying Open Ports/Services: You can see which ports on the system are in a LISTEN state and which services or applications are using them. This is crucial for verifying that network services (like a web server on port 80 or SSH on port 22) are running correctly or for detecting unauthorized services.
 
-### Security Auditing: Security professionals use these commands to spot suspicious network activity, such as unexpected connections to unknown IP addresses or unusual port usage, which could indicate malware or an intrusion attempt.
-### Process Association: They can link a network connection back to a specific Process ID (PID) and application name, allowing administrators to pinpoint exactly which program is responsible for network traffic.
+Troubleshooting Network Issues: By examining connection states (e.g., ESTABLISHED, SYN_SENT, TIME_WAIT), administrators can diagnose common problems like connection floods, network congestion, or application errors that prevent connections from closing properly.
+
+Security Auditing: Security professionals use these commands to spot suspicious network activity, such as unexpected connections to unknown IP addresses or unusual port usage, which could indicate malware or an intrusion attempt.
+ 
+Process Association: They can link a network connection back to a specific Process ID (PID) and application name, allowing administrators to pinpoint exactly which program is responsible for network traffic.
 
 
