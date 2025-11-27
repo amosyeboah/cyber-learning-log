@@ -98,7 +98,8 @@ ALLOW  	10.0.1.5	  8.8.8.8	  53  	  UDP	    Allow DNS queries
 DENY	  ANY	Server-Subnet	    22	    TCP	  Block external SSH
 
 ALLOW	Admin-Subnet	10.0.0.2	443	TCP	Allow HTTPS to app server
-🔥 6. SOC Analyst Real-World Scenarios
+
+### 🔥 6. SOC Analyst Real-World Scenarios
 ### Scenario 1 — Blocking a Malicious IP
 
 Threat intel reports a malicious scanning IP:
