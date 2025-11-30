@@ -7,26 +7,32 @@ Think of the whole internet or your home network like a big neighborhood.
 A subnet is like dividing that neighborhood into smaller streets so traffic is easier to manage.
 
 ## 🧩 Why Do We Use Subnets?
-
-1. Better organization
-
+1. Better organization:
 You can group devices (computers, printers, servers, cameras) into sections.
 
-2. Better security
-
+2. Better security:
 You can isolate parts of the network.
 E.g., Guest WiFi can't access internal company systems.
 
-3. Better performance
-
+3. Better performance:
 Smaller networks = less congestion = faster performance.
 
-4. Easier troubleshooting
-
+4. Easier troubleshooting:
 If something breaks, you know exactly where to check.
 
+### As a SOC analyst, you need subnet knowledge to:
+1. Identify which subnet an attack is coming from
+
+2. Understand firewall rules
+
+3. Analyze logs and network flows
+
+4. Track malicious IPs within internal networks
+
+5. Segment networks to reduce damage in case of breaches
+
 ### 🔑 Important Terms
-# 1. IP Address
+### 1. IP Address
 
 Example: 192.168.1.10
 
@@ -35,15 +41,11 @@ This is like a house number.
 ### 2. Subnet Mask
 
 Example:
-
 255.255.255.0 (common for small networks)
-
 /24 (CIDR notation for same thing)
-
 It tells you which part of the IP is the network and which part is the host.
 
 ### 3. Network Portion vs Host Portion
-
 Example IP: 192.168.1.10/24
 
 192.168.1 → Network
@@ -51,9 +53,7 @@ Example IP: 192.168.1.10/24
 .10 → Host (device)
 
 A /24 means:
-
-24 bits for network
-
+24 bits for network, 
 8 bits for hosts
 
 ### 🧮 Common Subnets (Easy Table)
@@ -111,7 +111,7 @@ Split /24 into two /25 networks:
 
 Each can hold 126 devices.
 
-🔥 Easy Analogy
+### 🔥 Easy Analogy
 
 IP address → Your house
 
