@@ -77,44 +77,53 @@ cd - Go to Previous Dir
 
 ### 📁 Working with Files & Directories
 Command	Description
-touch file.txt	Create empty file
-mkdir folder	Create directory
-cp file1 file2	Copy file
-cp -r dir1 dir2	Copy directory
-mv old new	Rename or move
-rm file	Delete file
-rm -r folder	Delete directory
-cat file	View file content
-nano file	Edit file in terminal
+touch file.txt	Create empty file ,
+mkdir folder	Create directory ,
+cp file1 file2	Copy file ,
+cp -r dir1 dir2	Copy directory ,
+mv old new	Rename or move ,
+rm file	Delete file ,
+rm -r folder	Delete directory ,
+cat file	View file content ,
+nano file	Edit file in terminal ,
 
 ### 🔐 Permissions
-Command	Description
-chmod 755 file	Change permissions
-chown user:group file	Change owner
-sudo command	Run command as superuser
-📦 Package Management (Debian/Ubuntu)
+chmod 755 file	Change permissions 
 
-### Command	Description
+chown user:group file	Change owner
+
+sudo command	Run command as superuser
+
+### 📦 Package Management (Debian/Ubuntu)
 sudo apt update	Refresh package list
+
 sudo apt upgrade	Upgrade installed packages
+
 sudo apt install packagename	Install software
+
 sudo apt remove packagename	Remove software
 
 ### ⚙️ System Information
-Command	Description
 uname -a	System info
-top	View running processes
+
+top-	View running processes
+
 htop	Improved process viewer (if installed)
+
 df -h	Disk usage
+
 du -sh folder	Folder size
+
 free -h	Memory usage
 
 ### 🌐 Networking
-Command	Description
 ip a	Show network interfaces
+
 ping google.com	Test connectivity
+
 curl url	Transfer data from URL
+
 wget url	Download file
-📝 Final Notes
+
 
 Linux is powerful because everything is a file, and the file system is organized logically.
