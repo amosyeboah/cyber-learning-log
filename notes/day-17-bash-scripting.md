@@ -42,6 +42,7 @@ echo "Second argument: $2"
 
 ## 📦 PROJECT: Backup a Folder Using Bash
 📝 Script: backup.sh
+
 -----------------------------------------------------------
 #!/bin/bash
 
@@ -54,6 +55,7 @@ mkdir -p $dest
 cp -r $src/* $dest
 
 echo "Backup completed!"
+
 -----------------------------------------------------------
 📌 How to Use the Script
 
@@ -98,3 +100,33 @@ Variables, functions
 Running scripts
 
 Creating a real backup automation system
+
+
+
+### Another way for a real backup automation system
+-----------------------------------------------------------------------
+#!/bin/bash
+
+# Folder to back up
+SOURCE="/home/amos/myfolder"
+
+# Backup directory
+DEST="/home/amos/backups"
+
+# Create destination folder if it doesn’t exist
+mkdir -p "$DEST"
+
+# Create filename with date
+DATE=$(date +"%Y-%m-%d_%H-%M-%S")
+
+# Output file
+BACKUP_FILE="$DEST/backup_$DATE.tar.gz"
+
+# Create the backup
+tar -czf "$BACKUP_FILE" "$SOURCE"
+
+# Confirm
+echo "Backup completed successfully: $BACKUP_FILE"
+
+-------------------------------------------------------------------------------
+
