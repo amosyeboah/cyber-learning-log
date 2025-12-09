@@ -68,17 +68,11 @@ Password Policy
 
 Set:
 
-Minimum length
-
-Maximum password age
-
-Account Lockout Policy
-
-Prevents brute-force attacks:
-
-Threshold (e.g., 5 failed attempts)
-
-Lockout duration
+Minimum length, 
+Maximum password age, 
+Account Lockout Policy, 
+Threshold (e.g., 5 failed attempts), 
+Lockout duration,
 
 Enable Firewall Rules:
 
