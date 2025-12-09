@@ -99,5 +99,27 @@ Specific IP ranges,
 | **Event Viewer**           | Logs for security, system, apps  |
 
 
+# Part 2
+### Event Viewer
+
+The Event Viewer (eventvwr.msc) is the central component of the Windows operating system that allows administrators to view, analyze, and manage log data about significant system events. It's the system's historical record of everything that has happened.
+
+Purpose
+It's primarily a troubleshooting and auditing tool. By examining the logs, administrators can diagnose system errors, hardware issues, application crashes, and security threats (like failed login attempts).
+
+### Services
+The Services Console (services.msc) is the management tool for Windows Services. Services are programs that run in the background without a user interface, providing core operating system functions, such as printing, networking, and automatic updates. They are the active components that make the system work.
+
+Purpose; 
+It's a configuration and control tool. Administrators use it to manage the operational state and configuration of these background programs.
+
+Event Viewer and Services often work together during troubleshooting:
+When a service successfully starts, stops, or fails, it records that action as an event in the Event Viewer (usually in the System Log).
+
+Example: If your print service stops working, you would use the Services Console to try and Restart the "Print Spooler" service. If the service fails to start, you would then check the Event Viewer (System Log) to read the specific Error message and Event ID detailing why it failed (e.g., a driver conflict, a corrupted file, etc.).
+
+### RDP
+Remote Desktop Protocol (RDP) is a proprietary protocol developed by Microsoft that allows a user to establish a graphical interface connection to another computer over a network connection. It is the core tool administrators use to manage servers remotely and is widely used for end-user remote work.
+
 
 
