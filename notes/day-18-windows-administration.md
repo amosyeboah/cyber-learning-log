@@ -24,9 +24,7 @@ net user username /active:no
 
 Windows has two main types of local user accounts:
 
-✔ Standard User, ✔ Administrator.
-
-Standard User
+✔ Standard User,
 
 Limited privileges.
 Cannot install system-wide software or change system settings.
@@ -54,6 +52,7 @@ AD is the primary tool to manage users, groups and permissions.
 | **Group Policy (GPO)**       | Controls user/computer settings across the domain   |
 | **Groups**                   | Used to assign permissions to many users at once    |
 
+
 ### Security
 
 | Tool                           | Purpose                                      |
@@ -62,6 +61,48 @@ AD is the primary tool to manage users, groups and permissions.
 | **Windows Defender Antivirus** | Malware protection                           |
 | **Local Security Policy**      | Password rules, lockout policy, audit policy |
 | **UAC (User Account Control)** | Prevents unauthorized changes                |
+
+
+Practical Security Configurations
+Password Policy
+
+Set:
+
+Minimum length
+
+Maximum password age
+
+Account Lockout Policy
+
+Prevents brute-force attacks:
+
+Threshold (e.g., 5 failed attempts)
+
+Lockout duration
+
+Enable Firewall Rules:
+
+You can block or allow:
+Ports
+Applications,
+Specific IP ranges,
+
+### Network
+| Component            | Description                            |
+| -------------------- | -------------------------------------- |
+| **IP Configuration** | Assigning IP, Gateway, DNS             |
+| **DNS Client**       | Name resolution                        |
+| **DHCP**             | Automatic IP assignment                |
+| **Network Profiles** | Public/Private controls firewall rules |
+
+### System Management
+| Area                       | Description                      |
+| -------------------------- | -------------------------------- |
+| **Storage Management**     | Partitions, disks, volumes       |
+| **Performance Monitoring** | RAM, CPU, Disk activity          |
+| **Task Scheduler**         | Automate backups, scans, scripts |
+| **Services Management**    | Starting and managing services   |
+| **Event Viewer**           | Logs for security, system, apps  |
 
 
 
