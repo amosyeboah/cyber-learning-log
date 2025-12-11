@@ -9,7 +9,7 @@ A – Availability (ensuring systems and data are accessible when needed)
 ###  1. Confidentiality
 Goal: Only authorized people should access the data.
 
-*Threats to Confidentiality*
+### *Threats to Confidentiality*
 
 Data Breach → attackers steal private data
 
@@ -23,7 +23,7 @@ Misconfigured cloud storage → open S3 buckets, exposed databases
 
 Malware (keyloggers) → steals usernames & passwords
 
---Protections for Confidentiality
+### *Protections for Confidentiality*
 
 Encryption (at rest & in transit) – e.g., HTTPS, TLS
 
