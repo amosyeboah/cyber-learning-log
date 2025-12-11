@@ -23,7 +23,7 @@ Misconfigured cloud storage → open S3 buckets, exposed databases
 
 Malware (keyloggers) → steals usernames & passwords
 
----Protections for Confidentiality
+--Protections for Confidentiality
 
 Encryption (at rest & in transit) – e.g., HTTPS, TLS
 
@@ -56,7 +56,7 @@ Corruption → system errors, storage failure
 
 Insider threats → employees editing records maliciously
 
-Protections for Integrity
+--Protections for Integrity
 
 Hashing – SHA-256 to verify file integrity
 
@@ -77,7 +77,7 @@ MITM protection – TLS certificates, HSTS
  ### 3. Availability
 Goal:  Systems, data, and services must be available when authorized users need them.
 
-Threats to Availability
+-- Threats to Availability
 
 DDoS Attacks → floods servers to make them unavailable
 
@@ -91,7 +91,7 @@ Server Misconfigurations causing downtime
 
 Resource Exhaustion → CPU, RAM, storage overload
 
-Protections for Availability
+--Protections for Availability
 
 Redundancy – multiple servers, load balancers, failover systems
 
@@ -106,3 +106,11 @@ High Availability Architecture – clustering, replication
 Uninterruptible Power Supplies (UPS)
 
 Monitoring tools – SIEM, uptime monitors
+
+
+| CIA Pillar          | Threats                                           | Protections                                    |
+| ------------------- | ------------------------------------------------- | ---------------------------------------------- |
+| **Confidentiality** | Unauthorized access, phishing, sniffing, breaches | Encryption, MFA, Access control, Firewalls     |
+| **Integrity**       | MITM, SQLi, tampering, malware                    | Hashes, signatures, input validation, backups  |
+| **Availability**    | DDoS, ransomware, outages                         | Redundancy, DR plans, DDoS protection, updates |
+
