@@ -42,7 +42,7 @@ Security Awareness Training – reduces phishing success
 ### 2. Integrity
 Goal:  Data must remain accurate, unchanged, and trustworthy.
 
---Threats to Integrity
+### *Threats to Integrity*
 
 Tampering or Manipulation of files or logs
 
@@ -56,7 +56,7 @@ Corruption → system errors, storage failure
 
 Insider threats → employees editing records maliciously
 
---Protections for Integrity
+### *Protections for Integrity*
 
 Hashing – SHA-256 to verify file integrity
 
@@ -77,7 +77,7 @@ MITM protection – TLS certificates, HSTS
  ### 3. Availability
 Goal:  Systems, data, and services must be available when authorized users need them.
 
--- Threats to Availability
+### *Threats to Availability*
 
 DDoS Attacks → floods servers to make them unavailable
 
@@ -91,7 +91,7 @@ Server Misconfigurations causing downtime
 
 Resource Exhaustion → CPU, RAM, storage overload
 
---Protections for Availability
+### *Protections for Availability*
 
 Redundancy – multiple servers, load balancers, failover systems
 
@@ -106,6 +106,7 @@ High Availability Architecture – clustering, replication
 Uninterruptible Power Supplies (UPS)
 
 Monitoring tools – SIEM, uptime monitors
+
 
 
 | CIA Pillar          | Threats                                           | Protections                                    |
